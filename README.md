@@ -8,6 +8,6 @@ Welcome to a place where you will hopefully speed up your work with Tanzu and Ku
 | :---: | :---: | :---: | :---: |
 | Application | Bare minimum working app | Version 0.1 / MVP | Version 1.0 / Release |
 | Platform     | Key abstractions defined | Platform MVP| Golden paths? |
-| Development   | git status     | git status    | git status    |
-| Ops     | git diff       | git diff      | git status    |
-| Security     | git diff       | git diff      | git status    |
+| Development   |  |  |  |
+| Ops     |  |  |  |
+| Security     |  |  |  |
