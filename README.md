@@ -7,7 +7,7 @@ Welcome to a place where you will hopefully speed up your work with Tanzu and Ku
 | | [Day 0 - Spinning up needed resources](Day%200%20-%20Spinning%20up%20needed%20resources) | [Day 1 - Design buildup](Day%201%20-%20Design%20buildup) | [Day 2 - Post deployment Ops](Day%202%20-%20Post%20deployment%20Ops)| Day *n* - ..and the fun begins |
 | :---: | :---: | :---: | :---: | :---: |
 | Application | Bare minimum working app | Version 0.1 / MVP | Version 1.0 / Release | |
-| Platform     | Key abstractions defined | Platform MVP| Golden paths? | |
+| Platform     | Key abstractions defined | Platform MVP| Golden paths? | Including edge |
 | Development   |  |  |  |  |
 | Ops     |  |  |  |  |
 | Security     |  |  |  |  |
