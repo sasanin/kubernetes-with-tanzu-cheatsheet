@@ -1,4 +1,4 @@
-## Day 1 - Design buildup and infrastructure choices
+## Day 1 - Design buildup
 
 ## Introduction
 This section tells you xyz..
