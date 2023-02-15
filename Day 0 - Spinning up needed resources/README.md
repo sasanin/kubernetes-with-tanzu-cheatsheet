@@ -1,17 +1,4 @@
 ## Day 0 - Spinning up needed resources
 
-## Introduction
-This section tells you xyz..
-
-### X
-| What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
-| --- | --- | --- | --- |
-| Do something X | `kubectl get pods` | `tanzu list..`| Pay attention to.. |
-| Do something Y | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
-
-### Y
-| What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
-| --- | --- | --- | --- |
-| Do something X | `kubectl get pods` | `tanzu list..`| Pay attention to.. |
-| Do something Y | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
-
+## Storyline
+This section tells you to do this first and then this with links.
