@@ -6,17 +6,22 @@ Throughout the cheatsheet here we will try to use Linux as much as possible. In 
 > Make sure to [download Homebrew](https://brew.sh/) using this command in terminal:  
 > ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
-Here we will be installing Kubectl the XX and additional tools needed in order to be able to host and create clusters and containers.
+Here we will be installing Kubectl enabling us to run commands against Kubernetes clusters and additional tools needed in order to run clusters locally.
 
-### Installing Kubectl
+### Install Kubectl
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
-| Install Kubectl | `brew install kubectl` | ``|  |
-| Validate Kubectl | `kubectl version --client` | The output should show something like this.. |
+| Install Kubectl | `brew install kubectl` |  |  |
+| Validate Kubectl | `kubectl version --client` |  | The output should show something like this.. |
 
-### Y
+### Install Kind
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
 | Do something X | `kubectl get pods` | `tanzu list..`| Pay attention to.. |
 | Do something Y | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
 
+### Install Minikube
+| What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
+| --- | --- | --- | --- |
+| Do something X | `kubectl get pods` | `tanzu list..`| Pay attention to.. |
+| Do something Y | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
