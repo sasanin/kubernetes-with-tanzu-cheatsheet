@@ -18,7 +18,8 @@ Here we will be installing Kubectl that will enable us to run commands against K
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
 | Install Minikube | `brew install minikube` |  | Pay attention to.. |
-| Verify Minikube install | `minikube version` | The output should show something like this.. |
+| Verify Minikube install | `minikube version` | | The output should show something like this: `minikube version: v1.29.0
+commit: ddac20b4b34a9c8c857fc602203b6ba2679794d3`|
 
 ### Install Kind (alternative)
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
