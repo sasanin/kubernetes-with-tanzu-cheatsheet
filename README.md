@@ -13,7 +13,7 @@ The approach for the content below is simple. The *italic* subjects Platform, Ap
 | *Data* | <sub>Expose XX</sub>  |  <sub>Install Greenplum<br />Install RabbitMQ</sub> | <sub>Making use of data more efficiently<br />Data Centric Pipelines</sub>  | <sub>TDI</sub> |
 | **Sec** | <sub>Basic rules and principles</sub>  | <sub>XX</sub>  |  <sub>Using TAP and TKO in symbiosis</sub> | <sub>XX</sub> |
 | *Platform* | [<sub>Install Kubernetes/TKG on local machine</sub>](Day%200%20-%20Spinning%20up%20needed%20resources/Local%20Kubernetes) | <sub><br /> Install TKG on vSphere <br /> Install Kubernetes/TKG on Azure <br /> Install Kubernetes/TKG on AWS <br /> Install Kubernetes/TKG on Google Cloud </sub>  |  <sub>Configuring access to clusters</sub> | <sub>XX</sub> |
-| **Ops** | <sub>Basic metrics with XYZ</sub>  | <sub>Installing TKO</sub>  | <sub>Managing multi-cloud aspects with TKO</sub>  | <sub>Providing managed services with TKO</sub> |
+| **Ops** | <sub>Create your first cluster<br />Basic metrics with XYZ</sub>  | <sub>Installing TKO</sub>  | <sub>Managing multi-cloud aspects with TKO</sub>  | <sub>Providing managed services with TKO</sub> |
 
 <details><summary>Abbreviations</summary>
 <p>
