@@ -6,7 +6,7 @@ Welcome to a place where you will hopefully speed up your work with Tanzu and Ku
 The approach for the content below is simple. The *italic* subjects Platform, App, and Data is probably what you are familiar with when it comes to traditional IT environments where you have a platform or environment that some application is running on where a business or some end user needs in order to handle data. Always try to think in this order (i.e. Platform -> App -> Data) for this cheatsheet as it will ease your way throughout the DevSecOps lifecycle. Once familiar with the basics you will be able to move on applying a more cloud native way of thinking to modern apps.
 
 ### Table of Content
-| | [Day 0 - Spinning up needed resources](Day%200%20-%20Spinning%20up%20needed%20resources) | [Day 1 - Design buildup](Day%201%20-%20Design%20buildup) | [Day 2 - Post deployment Ops](Day%202%20-%20Post%20deployment%20Ops)| Day *n* - ..and the fun begins |
+| | [Day 0 - Spinning up needed resources](Day%200%20-%20Spinning%20up%20needed%20resources) | [Day 1 - Design buildup](Day%201%20-%20Design%20buildup) | [Day 2 - Post deployment Ops](Day%202%20-%20Post%20deployment%20Ops)| [Day *n* - ..and the fun begins](Day%20n%20-%20Next%20steps) |
 | :---: | :---: | :---: | :---: | :---: |
 | *App* | <sub>Bare minimum working app</sub> | <sub>Version 0.1 / MVP</sub> | <sub>Version 1.0 / Release including dependencies and resources</sub> | <sub>Tanzu Application Platform</sub> |
 | **Dev** | <sub>Key abstractions defined<br />From code to image</sub> | <sub>Platform MVP<br />TAP install</sub>| <sub>Golden paths?<br />Multiple dev projects in TAP</sub> | <sub>Including edge</sub> |
