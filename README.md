@@ -18,11 +18,11 @@ The approach for the content below is simple. The *italic* subjects Platform, Ap
 <details><summary>Abbreviations</summary>
 <p>
   <ul>
-    <li>DevSecOps     Development Security Operations for XX</li>
-    <li>MVP           Minimal Viable Product</li>
-    <li>TAP           Tanzu Application Platform</li>
-    <li>TKG           Tanzu Kubernetes Grid</li>
-    <li>TKO           Tanzu for Kubernetes Operations</li>
+    <li>*DevSecOps* - Development Security Operations for XX</li>
+    <li>*MVP* - Minimal Viable Product</li>
+    <li>*TAP* - Tanzu Application Platform</li>
+    <li>*TKG* - Tanzu Kubernetes Grid</li>
+    <li>*TKO* - Tanzu for Kubernetes Operations</li>
   </ul>
     </p>
 </details>
