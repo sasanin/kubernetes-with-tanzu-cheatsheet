@@ -12,13 +12,13 @@ Here we will be installing Kubectl that will enable us to run commands against K
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
 | Install Kubectl | `brew install kubectl` |  |  |
-| Validate Kubectl | `kubectl version --client` |  | The output should show something like this.. |
+| Verify Kubectl install | `kubectl version --client` |  | The output should show something like this.. |
 
 ### Install Minikube
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
 | Install Minikube | `brew install minikube` |  | Pay attention to.. |
-| Do something Y | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
+| Verify Minikube install | `minikube version` | The output should show something like this.. |
 
 ### Install Kind (alternative)
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
