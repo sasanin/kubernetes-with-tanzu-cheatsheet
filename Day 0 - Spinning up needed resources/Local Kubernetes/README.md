@@ -11,8 +11,8 @@ Here we will be installing Kubectl the XX and additional tools needed in order t
 ### Installing Kubectl
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
-| Install Homebrew | `kubectl get pods` | `tanzu list..`| Pay attention to.. |
-| Install Kubectl | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
+| Install Kubectl | `brew install kubectl` | ``|  |
+| Validate Kubectl | `kubectl version --client` | The output should show something like this.. |
 
 ### Y
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
