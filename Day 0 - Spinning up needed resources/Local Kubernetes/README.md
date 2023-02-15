@@ -6,7 +6,7 @@ Throughout the cheatsheet here we will try to use Linux as much as possible. In 
 > Make sure to [download Homebrew](https://brew.sh/) using this command in terminal:  
 > ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
-Here we will be installing Kubectl enabling us to run commands against Kubernetes clusters and additional tools needed in order to run clusters locally.
+Here we will be installing Kubectl that will enable us to run commands against Kubernetes clusters and additional tools needed in order to run clusters locally.
 
 ### Install Kubectl
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
