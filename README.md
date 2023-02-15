@@ -8,7 +8,7 @@ Welcome to a place where you will hopefully speed up your work with Tanzu and Ku
 | :---: | :---: | :---: | :---: | :---: |
 | *App* | <sub>Bare minimum working app</sub> | <sub>Version 0.1 / MVP</sub> | <sub>Version 1.0 / Release including dependencies and resources</sub> | <sub>Tanzu Application Platform</sub> |
 | **Dev** | <sub>Key abstractions defined<br />From code to image</sub> | <sub>Platform MVP<br />TAP install</sub>| <sub>Golden paths?<br />Multiple dev projects in TAP</sub> | <sub>Including edge</sub> |
-| *Data* | <sub>Expose XX</sub>  |  <sub>Install Greenplum<br />Install RabbitMQ</sub> | <sub>Making use of data more efficiently</sub>  | <sub>Data Centric Pipelines</sub> |
+| *Data* | <sub>Expose XX</sub>  |  <sub>Install Greenplum<br />Install RabbitMQ</sub> | <sub>Making use of data more efficiently<br />Data Centric Pipelines</sub>  | <sub>TDI</sub> |
 | **Sec** | <sub>Basic rules and principles</sub>  | <sub>XX</sub>  |  <sub>Using TAP and TKO in symbiosis</sub> | <sub>XX</sub> |
 | *Platform* | [<sub>Install Kubernetes/TKG on local machine</sub>](Day%200%20-%20Spinning%20up%20needed%20resources/Local%20Kubernetes) | <sub><br /> Install TKG on vSphere <br /> Install Kubernetes/TKG on Azure <br /> Install Kubernetes/TKG on AWS <br /> Install Kubernetes/TKG on Google Cloud </sub>  |  <sub>Configuring access to clusters</sub> | <sub>XX</sub> |
 | **Ops** | <sub>Basic metrics with XYZ</sub>  | <sub>Installing TKO</sub>  | <sub>Managing multi-cloud aspects with TKO</sub>  | <sub>Providing managed services with TKO</sub> |
