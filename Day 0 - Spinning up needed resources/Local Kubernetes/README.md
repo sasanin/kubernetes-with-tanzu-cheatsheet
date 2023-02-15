@@ -1,4 +1,4 @@
-## Day 0 - Spinning up needed resources
+## Creating a local Kubernetes install with or without Tanzu
 
 ## Introduction
 This section tells you xyz..
