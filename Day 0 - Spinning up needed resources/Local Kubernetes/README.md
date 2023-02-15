@@ -14,14 +14,14 @@ Here we will be installing Kubectl that will enable us to run commands against K
 | Install Kubectl | `brew install kubectl` |  |  |
 | Validate Kubectl | `kubectl version --client` |  | The output should show something like this.. |
 
-### Install Kind
-| What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
-| --- | --- | --- | --- |
-| Do something X | `kubectl get pods` | `tanzu list..`| Pay attention to.. |
-| Do something Y | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
-
 ### Install Minikube
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
-| Do something X | `kubectl get pods` | `tanzu list..`| Pay attention to.. |
+| Install Minikube | `brew install minikube` |  | Pay attention to.. |
 | Do something Y | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
+
+### Install Kind (alternative)
+| What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
+| --- | --- | --- | --- |
+| Install Docker | `kubectl get pods` | `tanzu list..`| Kind requires that you have Docker installed and configured |
+| Install Kind | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
