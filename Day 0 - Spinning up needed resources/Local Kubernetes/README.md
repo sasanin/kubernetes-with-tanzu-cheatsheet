@@ -15,13 +15,13 @@ Here we will be installing Kubectl that will enable us to run commands against K
 | Verify Kubectl install | `kubectl version --client` |  | The output should show something like this:<br />`Client Version: version.Info{Major:"1", Minor:"26", GitVersion:"v1.26.1", GitCommit:"8f94681cd294aa8cfd3407b8191f6c70214973a4", GitTreeState:"clean", BuildDate:"2023-01-18T15:51:24Z", GoVersion:"go1.19.5", Compiler:"gc", Platform:"linux/amd64"}Kustomize Version: v4.5.7`|
 |Verify Kubectl config|`kubectl cluster-info`||This should show XX|
 
-### Install Minikube
+### Install Minikube (if running native Kubernetes only)
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
 | Install Minikube | `brew install minikube` |  | Pay attention to.. |
 | Verify Minikube install | `minikube version` | | The output should show something like this:<br />`minikube version: v1.29.0 commit: ddac20b4b34a9c8c857fc602203b6ba2679794d3`|
 
-### Install Kind (alternative)
+### Install Kind (if running Tanzu Kubernetes Grid)
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
 | Install Docker | `kubectl get pods` | `tanzu list..`| Kind requires that you have Docker installed and configured |
