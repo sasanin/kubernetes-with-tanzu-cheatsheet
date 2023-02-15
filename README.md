@@ -10,5 +10,6 @@ Welcome to a place where you will hopefully speed up your work with Tanzu and Ku
 | **Dev** | <sub>Key abstractions defined</sub> | <sub>Platform MVP</sub>| <sub>Golden paths?</sub> | <sub>Including edge</sub> |
 | *Data* | <sub></sub>  |  <sub></sub> | <sub></sub>  | <sub>Tanzu Application Platform</sub> |
 | **Sec** | <sub></sub>  | <sub></sub>  |  <sub></sub> | <sub>Tanzu Application Platform</sub> |
-| *Platform* | [<sub>Install Kubernetes on local machine</sub>](Day%200%20-%20Spinning%20up%20needed%20resources/Local%20Kubernetes)  | <sub></sub>  |  <sub></sub> | <sub>Tanzu Application Platform</sub> |
+| *Platform* | [<sub>Install Kubernetes on local machine</sub>](Day%200%20-%20Spinning%20up%20needed%20resources/Local%20Kubernetes) 
+Test | <sub></sub>  |  <sub></sub> | <sub>Tanzu Application Platform</sub> |
 | **Ops** | <sub></sub>  | <sub></sub>  | <sub></sub>  | <sub></sub> |
