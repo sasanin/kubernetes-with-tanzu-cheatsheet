@@ -17,10 +17,10 @@ The approach for the content below is simple. The *italic* subjects Platform, Ap
 
 <details><summary>Abbreviations</summary>
 <p>
-DevSecOps     Development Security Operations for XX
-MVP           Minimal Viable Product
-TAP           Tanzu Application Platform
-TKG           Tanzu Kubernetes Grid
-TKO           Tanzu for Kubernetes Operations
+- DevSecOps     Development Security Operations for XX
+- MVP           Minimal Viable Product
+- TAP           Tanzu Application Platform
+- TKG           Tanzu Kubernetes Grid
+- TKO           Tanzu for Kubernetes Operations
 </p>
 </details>
