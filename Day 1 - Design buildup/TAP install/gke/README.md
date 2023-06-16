@@ -11,7 +11,7 @@ Before installing TAP on gke make sure that you have the following:
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
 | Install Kubectl | `brew install kubectl` |  |  |
-| Verify Kubectl install | `kubectl version --client` |  | The output should show something like this:<br />`Client Version: version.Info{Major:"1", Minor:"26", GitVersion:"v1.26.1", GitCommit:"8f94681cd294aa8cfd3407b8191f6c70214973a4", GitTreeState:"clean", BuildDate:"2023-01-18T15:51:24Z", GoVersion:"go1.19.5", Compiler:"gc", Platform:"linux/amd64"}Kustomize Version: v4.5.7`|
+| Verify Kubectl install | `kubectl version --client` |  | dd |
 |Verify Kubectl config|`kubectl cluster-info`||This should show XX|
 
 ### Step 2 - 
