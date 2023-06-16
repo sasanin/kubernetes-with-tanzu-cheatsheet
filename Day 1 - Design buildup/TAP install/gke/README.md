@@ -8,7 +8,7 @@ Before installing TAP on gke make sure that you have the following:
 * A Google Cloud Account that gives you access to the gke console https://console.cloud.google.com/.
 
 ### Step 1 - 
-| What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
+| What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
 | Install Google Cloud CLI | `brew install kubectl` |  |  |
 | Update Tanzu CLI | `kubectl version --client` |  | dd |
