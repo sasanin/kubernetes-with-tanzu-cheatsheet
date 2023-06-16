@@ -1,7 +1,9 @@
-## Day 1 - Design buildup
+## Installing Tanzu Application Platform on different platforms
 
 ## Introduction
 This section tells you xyz..
+
+### Choose the platform you want to use for TAP
 
 ### X
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
