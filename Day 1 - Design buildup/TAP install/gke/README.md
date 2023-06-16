@@ -1,14 +1,11 @@
 ## TAP version 1.5.1 on Google Kubernetes Engine (gke)
 
 ## Introduction
-Before starting to install TAP on gke make sure that you meet the following prerequisities:
-* Tanzu Network
-* xx
-
-> Make sure to [download Homebrew](https://brew.sh/) using this command in terminal:  
-> ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
-
-Here we will be installing Kubectl that will enable us to run commands against Kubernetes clusters and additional tools needed in order to run clusters locally.
+Before installing TAP on gke make sure that you have the following:
+* A Tanzu Network account with noted username and password.
+  - If not, please go to https://network.tanzu.vmware.com and create one. Save the username and password as we will 
+* Access to https://registry.tanzu.vmware.com using the same credentials as above.
+* A Google Cloud Account that gives you access to the gke console https://console.cloud.google.com/.
 
 ### Step 1 - 
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
