@@ -6,7 +6,7 @@ This section tells you xyz..
 ### Choose the platform you want to use for TAP
 
 * Google Cloud gke
-  - [TAP v1.5.1](https://github.com/sasanin/kubernetes-with-tanzu-cheatsheet/tree/295e757511e345769a5e84bcf217cf91250aae5b/Day%201%20-%20Design%20buildup/TAP%20install/gke)
+  - [TAP v1.5.1](Day 1 - Design buildup/TAP install/gke)
 * Azure
   - TAP vX
 * AWS
