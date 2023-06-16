@@ -10,9 +10,9 @@ Before installing TAP on gke make sure that you have the following:
 ### Step 1 - 
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
 | --- | --- | --- | --- |
-| Install Kubectl | `brew install kubectl` |  |  |
-| Verify Kubectl install | `kubectl version --client` |  | dd |
-|Verify Kubectl config|`kubectl cluster-info`||This should show XX|
+| Install Google Cloud CLI | `brew install kubectl` |  |  |
+| Update Tanzu CLI | `kubectl version --client` |  | dd |
+| Update Kubectl CLI |`kubectl cluster-info`||This should show XX|
 
 ### Step 2 - 
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
