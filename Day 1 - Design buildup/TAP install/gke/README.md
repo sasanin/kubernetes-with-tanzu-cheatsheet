@@ -17,7 +17,7 @@ Before installing TAP on gke make sure that you have the following:
 | Install Google Cloud CLI - *Unpack tar* | Extract the tar archive preferably to your `Home` directory. |  |  |
 | Install Google Cloud CLI - *Install* | `cd` to the root of the folder you extracted in the last step and run script: `./google-cloud-sdk/install.sh.` |  |  |
 | Install Google Cloud CLI - *Initialize* | Initialize the Google Cloud CLI by running this script: `./google-cloud-sdk/bin/gcloud init` |  | If not succeeding (changes did not take place) try to open a new terminal and run the script from there. |
-| Update Tanzu CLI | `tanzu version` will show you the current Tanzu CLI version you are running. If you would like to upgrade it then run script: `tanzu update -l --all`|  | dd |
+| Update Tanzu CLI - *version*| `tanzu version` will show you the current Tanzu CLI version you are running. If you would like to upgrade it then run script: `tanzu update -l --all`|  | dd |
 | Update Kubectl CLI |`kubectl cluster-info`||This should show XX|
   
 ### Step 2 - 
