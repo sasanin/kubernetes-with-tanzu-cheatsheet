@@ -13,7 +13,7 @@ Before installing TAP on gke make sure that you have the following:
 ### Step 1 - 
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| Install Google Cloud CLI | Confirm that you have a supported version (3.5 to 3.9) of Python 3 by running `python3 -V` or `python -V. Download macOS 64-bit (x86_64), (ARM64, Apple M1 silicon), or (x86) |  |  |
+| Install Google Cloud CLI | Confirm that you have a supported version (3.5 to 3.9) of Python 3 by running `python3 -V` or `python -V`. Download macOS 64-bit (x86_64)[https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-435.0.1-darwin-x86_64.tar.gz], (ARM64, Apple M1 silicon), or (x86) |  |  |
 | Update Tanzu CLI | `kubectl version --client` |  | dd |
 | Update Kubectl CLI |`kubectl cluster-info`||This should show XX|
 
