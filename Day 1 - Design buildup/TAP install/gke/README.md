@@ -1,7 +1,7 @@
 ## TAP version 1.5.1 on Google Kubernetes Engine (gke)
 
 ## Introduction
-This installation guide will let you install a full TAP profile on a gke cluster using a Mac.
+This installation guide will let you install a full TAP profile on a gke cluster using a Mac. Please take a note of the [TAP prerequisities for gke](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/1.5/tap/prerequisites.html#:~:text=Google%20Kubernetes%20Engine).
 
 Before installing TAP on gke make sure that you have the following:
 * Tanzu and Kubectl CLIs installed. If not, go to XX.
