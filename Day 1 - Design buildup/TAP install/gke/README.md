@@ -5,6 +5,7 @@ This installation guide will let you install a full TAP profile on a GKE cluster
 
 Before installing TAP on GKE make sure that you have the following:
 * Tanzu and Kubectl CLIs installed. If not, go to **XX**.
+* Docker installed on your Mac. If not, go to https://docs.docker.com/engine/install/binaries/#:~:text=Install%20client%20binaries%20on%20macOS%F0%9F%94%97
 * A Tanzu Network account with noted username and password.
   - If not, please go to https://network.tanzu.vmware.com and create one. Save the username and password as we will **XX**
 * Access to https://registry.tanzu.vmware.com using the same credentials as above.
@@ -28,8 +29,8 @@ Before installing TAP on GKE make sure that you have the following:
 ### Step 2a - How to use a GKE Artifact Repository
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| xx | `yy` | Go to your [Google Cloud Console](https://console.cloud.google.com/) and search for "Artifact Repository". | *Before you start make sure you are in the right project. Check this by the project drop down list in upper left corner.* |
-| xx | `yy` | | bla bla|
+| Go to Artifact Repository in Google Cloud | | Go to your [Google Cloud Console](https://console.cloud.google.com/) and search for "Artifact Repository". | *Before you start make sure you are in the right project. Check this by the project drop down list in upper left corner.* |
+| xx | `yy` | | *You must create an Artifact Registry Docker repository before you push an image (e.g. TAP) to it.*|
 
 ### Step 2b - How to use a Harbor Repository
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
