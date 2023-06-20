@@ -25,7 +25,7 @@ Before installing TAP on GKE make sure that you have the following:
 ### Step 2a - How to use a GKE Artifact Repository
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| xx | `yy` | Go to your [Google Cloud Console](https://console.cloud.google.com/) and search for "Artifact Repository". | Pay attention to.. |
+| xx | `yy` | Go to your [Google Cloud Console](https://console.cloud.google.com/) and search for "Artifact Repository". | *Before you start make sure you are in the right project. Check this by the project drop down list in upper left corner.* |
 | xx | `yy` | | bla bla|
 
 ### Step 2b - How to use a Harbor Repository
