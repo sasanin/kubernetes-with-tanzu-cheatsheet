@@ -21,11 +21,17 @@ Before installing TAP on gke make sure that you have the following:
 | Update Tanzu CLI - **plugins**| `tanzu plugin list` will show you the current installed plugins but also upgradeable ones.<br />If you would like to install any then run script: `tanzu plugin install <PLUGIN NAME>` or if you want to upgrade any then: `tanzu plugin upgrade <PLUGIN NAME>`.| | |
 | Kubectl CLI - **health check and upgrade** | Use `kubectl version --output=yaml` to see your client and server versions in yaml format.<br />Make sure the CLI client can run on the latest supported Kubernetes version - check [here](https://kubernetes.io/releases/).<br />If you need to upgrade your Kubectl CLI then the simple thing is to use Homebrew: `brew upgrade kubectl`. || *You will also be able to see the output in json format if changing to `--output=json`.* |
   
-### Step 2 - Creating a GKE Artifact Repository
-| What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
+### Step 2a - How to use a GKE Artifact Repository
+| What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| Install Minikube | `brew install minikube` |  | Pay attention to.. |
-| Verify Minikube install | `minikube version` | | The output should show something like this:<br />`minikube version: v1.29.0 commit: ddac20b4b34a9c8c857fc602203b6ba2679794d3`|
+| xx | `yy` |  | Pay attention to.. |
+| xx | `yy` | | bla bla|
+
+### Step 2b - How to use a Docker Repository
+| What you are trying to achieve | On local Mac | In Google Cloud | Notes |
+| --- | --- | --- | --- |
+| xx | `yy` |  | Pay attention to.. |
+| xx | `yy` | | bla bla|
 
 ### Step 3 - 
 | What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
