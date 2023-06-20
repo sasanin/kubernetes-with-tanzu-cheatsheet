@@ -27,7 +27,7 @@ Before installing TAP on GKE make sure that you have the following:
 | xx | `yy` |  | Pay attention to.. |
 | xx | `yy` | | bla bla|
 
-### Step 2b - How to use a Docker Repository
+### Step 2b - How to use a Harbor Repository
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
 | xx | `yy` |  | Pay attention to.. |
