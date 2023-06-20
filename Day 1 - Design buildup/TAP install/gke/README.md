@@ -30,7 +30,8 @@ Before installing TAP on GKE make sure that you have the following:
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
 | Go to Artifact Registry in Google Cloud | | Go to your [Google Cloud Console](https://console.cloud.google.com/) and search for "Artifact Registry". This reqistry will hold all your repositories. | *Before you start make sure you are in the right project. Check this by the project drop down list in upper left corner.* |
-| Create new Registry | | Click on `CREATE REPOSITORY` and fill in the following:<br />*Name*: tap-registry<br />*Format*: Docker<br />*Mode*: Standard<br />*Location type*: Region >> your region (I am using `europe-north1 (Finland)` | *You must create an Artifact Registry Docker repository before you push an image (e.g. TAP) to it.*|
+| Create new Registry | | Click on `CREATE REPOSITORY` and fill in the following:<br />*Name*: tap-registry<br />*Format*: Docker<br />*Mode*: Standard<br />*Location type*: Region >> your region (I am using `europe-north1 (Finland)`<br />*Encryption*: 
+Google-managed encryption key<br />Click on `CREATE`.| *You must create an Artifact Registry Docker repository before you push an image (e.g. TAP) to it.*|
 
 ### Step 2b - How to use a Harbor Repository
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
