@@ -3,7 +3,7 @@
 ## Introduction
 This installation guide will let you install a full TAP profile on a GKE cluster using a Mac. Please take a note of the [TAP prerequisities for GKE](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/1.5/tap/prerequisites.html#:~:text=Google%20Kubernetes%20Engine).
 
-Before installing TAP on gke make sure that you have the following:
+Before installing TAP on GKE make sure that you have the following:
 * Tanzu and Kubectl CLIs installed. If not, go to **XX**.
 * A Tanzu Network account with noted username and password.
   - If not, please go to https://network.tanzu.vmware.com and create one. Save the username and password as we will **XX**
