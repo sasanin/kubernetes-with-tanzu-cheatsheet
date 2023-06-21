@@ -34,7 +34,7 @@ Before installing TAP on GKE make sure that you have the following:
 | Configure Docker for the repository | **(2)** Copy the command and run it in terminal to configure gcloud as the credential helper for the Artifact Registry domain associated with the location of tap-registry. | **(1)** Check mark the tap-registry repository and click on `SETUP INSTRUCTIONS`. ||
 | Assign value to `GOOGLE_REGISTRY_PROJECT`| **(2)** Save it to something similar to `europe-north1-docker.pkg.dev/<YOUR_PROJECT>/tap-registry` for variable `GOOGLE_REGISTRY_PROJECT` in a textfile. | **(1)** Open `tap-registry` and copy the path to it. | |
 | Create Service Account || In gcloud console click on the left hand menu and select `IAM & Admin` >> `Service Accounts`.<br />Click on `CREATE SERVICE ACCOUNT`.<br />Give the `Service account name` tap-service-account and click on `CREATE AND CONTINUE`.<br /> ||
-| Grant IAM roles on the Google Cloud project || Grant the following service account access so that it has permission to complete specific actions on the resources in your project:<br />-*Artifact Registry Administrator*<br />-*Storage Admin*<br />Click on `CONTINUE` and then on `DONE`. ||
+| Grant IAM roles on the Google Cloud project || Grant the following service accounts access so that it has permission to complete specific actions on the resources in your project:<br />-*Artifact Registry Administrator*<br />-*Storage Admin*<br />Click on `CONTINUE` and then on `DONE`. ||
 |||||
 |||||
 
