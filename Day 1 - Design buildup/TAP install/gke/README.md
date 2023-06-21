@@ -4,7 +4,7 @@
 This installation guide will let you install a full TAP profile on a GKE cluster using a Mac. Please take a note of the [TAP prerequisities for GKE](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/1.5/tap/prerequisites.html#:~:text=Google%20Kubernetes%20Engine).
 
 Before installing TAP on GKE make sure that you have the following:
-* Tanzu and Kubectl CLIs installed. If not, go to **XX**.
+* Tanzu and Kubectl CLIs and plugins installed. If not, go to **XX**.
 * Docker Desktop installed on your Mac. If not, [install the Docker Desktop](https://docs.docker.com/desktop/install/mac-install/) or if you wnat to use the binaries then [install client binaries on macOS](https://docs.docker.com/engine/install/binaries/#:~:text=Install%20client%20binaries%20on%20macOS%F0%9F%94%97).
   > Docker Desktop has privileged access to interact with registries is MacOS as it runs on a virtual machine as the root user. If using the binaries you need to ensure that you can run Docker commands as part of the Docker security group.
 * A Tanzu Network account with noted username and password.
