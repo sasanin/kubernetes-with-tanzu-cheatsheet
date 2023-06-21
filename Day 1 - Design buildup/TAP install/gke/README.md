@@ -56,11 +56,6 @@ Before installing TAP on GKE make sure that you have the following:
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
 | Cluster Essentials - **Download file** | Go to the [Tanzu Network](https://network.tanzu.vmware.com/products/tanzu-cluster-essentials/) and if needed accept any EULA (End User License Agreement).<br />Select latest version (here I will be using the v1.5.1 release) and download the .tgz file.<br />Create a folder on your local Mac similar to where you before have created the `tanzu` folder. Name the folder `tanzu-cluster-essentials` and unpack the .tgz file here. |||
-| Cluster Essentials - **Install** | `cd` in to the `tanzu-cluster-essentials` folder and run the following to validate the bundle:<br />`
-export INSTALL_BUNDLE=registry.tanzu.vmware.com/tanzu-cluster-essentials/cluster-essentials-bundle@sha256:5fd527dda8af0e4c25c427e5659559a2ff9b283f6655a335ae08357ff63b8e7f
-export INSTALL_REGISTRY_HOSTNAME=registry.tanzu.vmware.com
-export INSTALL_REGISTRY_USERNAME=TANZU_HARBOR_USERNAME
-export INSTALL_REGISTRY_PASSWORD=TANZU_HARBOR_PASSWORD
-./install.sh --yes` |||
+| Cluster Essentials - **Install** | `cd` in to the `tanzu-cluster-essentials` folder and run the following to validate the bundle:<br />`export INSTALL_BUNDLE=registry.tanzu.vmware.com/tanzu-cluster-essentials/cluster-essentials-bundle@sha256:<ADD_YOUR_CHECKSUM_HERE><br />export INSTALL_REGISTRY_HOSTNAME=registry.tanzu.vmware.com<br />export INSTALL_REGISTRY_USERNAME=TANZU_HARBOR_USERNAME<br />export INSTALL_REGISTRY_PASSWORD=TANZU_HARBOR_PASSWORD<br />./install.sh --yes` |||
 |||||
 |||||
