@@ -30,13 +30,13 @@ Before installing TAP on GKE make sure that you have the following:
 ### Step 2a - Setting up a GKE Artifact Repository with Keys for Service Accounts
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| Go to Artifact Registry in Google Cloud | | Go to your [Google Cloud Console](https://console.cloud.google.com/) and search for "Artifact Registry". This reqistry will hold all your repositories. | *Before you start make sure you are in the right project. Check this by the project drop down list in upper left corner.* |
-| Create new Registry | | Click on `CREATE REPOSITORY` and fill in the following:<br />*Name*: tap-registry<br />*Format*: Docker<br />*Mode*: Standard<br />*Location type*: Region >> your region (I am using `europe-north1 (Finland)`<br />*Encryption*: Google-managed encryption key<br />Click on `CREATE`.| *You must create an Artifact Registry Docker repository before you push an image (e.g. TAP) to it.<br /><br />You can confirm the creation in terminal by: `gcloud artifacts repositories list`.*|
-| Configure Docker for the repository | **(2)** Copy the command and run it in terminal to configure gcloud as the credential helper for the Artifact Registry domain associated with the location of tap-registry. | **(1)** Check mark the tap-registry repository and click on `SETUP INSTRUCTIONS`. ||
-| Assign value to `GOOGLE_REGISTRY_PROJECT`| **(2)** Save it to something similar to `europe-north1-docker.pkg.dev/<YOUR_PROJECT>/tap-registry` for variable `GOOGLE_REGISTRY_PROJECT` in a textfile. | **(1)** Open `tap-registry` and copy the path to it. | |
-| Create Service Account || In gcloud console click on the left hand menu and select `IAM & Admin` >> `Service Accounts`.<br />Click on `CREATE SERVICE ACCOUNT`.<br />Give the `Service account name` *tap-service-account* and click on `CREATE AND CONTINUE`.<br /> ||
-| Grant IAM roles on the Google Cloud project || Grant the following service accounts access so that it has permission to complete specific actions on the resources in your project:<br />-*Artifact Registry Administrator*<br />-*Storage Admin*<br />Click on `CONTINUE` and then on `DONE`. ||
-| Create private key | **(2)** The json file containing your private key will be downloaded to your Mac. Make sure to save it where you can easily find as you will need the content for the next steps. | **(1)** Open the `tap-service-account` that you just created and go to the `KEYS` column and click on `ADD KEY`>`Create new key`.<br />Select ´JSON´ as `Key type` and click on `CREATE`.||
+| Artifact Repository - **Go to Artifact Registry in Google Cloud** | | Go to your [Google Cloud Console](https://console.cloud.google.com/) and search for "Artifact Registry". This reqistry will hold all your repositories. | *Before you start make sure you are in the right project. Check this by the project drop down list in upper left corner.* |
+| Artifact Repository - **Create new Registry** | | Click on `CREATE REPOSITORY` and fill in the following:<br />*Name*: tap-registry<br />*Format*: Docker<br />*Mode*: Standard<br />*Location type*: Region >> your region (I am using `europe-north1 (Finland)`<br />*Encryption*: Google-managed encryption key<br />Click on `CREATE`.| *You must create an Artifact Registry Docker repository before you push an image (e.g. TAP) to it.<br /><br />You can confirm the creation in terminal by: `gcloud artifacts repositories list`.*|
+| Artifact Repository - **Configure Docker for the repository** | **(2)** Copy the command and run it in terminal to configure gcloud as the credential helper for the Artifact Registry domain associated with the location of tap-registry. | **(1)** Check mark the tap-registry repository and click on `SETUP INSTRUCTIONS`. ||
+| Artifact Repository - **Assign value to `GOOGLE_REGISTRY_PROJECT`**| **(2)** Save it to something similar to `europe-north1-docker.pkg.dev/<YOUR_PROJECT>/tap-registry` for variable `GOOGLE_REGISTRY_PROJECT` in a textfile. | **(1)** Open `tap-registry` and copy the path to it. | |
+| Service Account and Key - **Create Service Account** || In gcloud console click on the left hand menu and select `IAM & Admin` >> `Service Accounts`.<br />Click on `CREATE SERVICE ACCOUNT`.<br />Give the `Service account name` *tap-service-account* and click on `CREATE AND CONTINUE`.<br /> ||
+| Service Account and Key - **Grant IAM roles on the Google Cloud project** || Grant the following service accounts access so that it has permission to complete specific actions on the resources in your project:<br />-*Artifact Registry Administrator*<br />-*Storage Admin*<br />Click on `CONTINUE` and then on `DONE`. ||
+| Service Account and Key - **Create private key** | **(2)** The json file containing your private key will be downloaded to your Mac. Make sure to save it where you can easily find as you will need the content for the next steps. | **(1)** Open the `tap-service-account` that you just created and go to the `KEYS` column and click on `ADD KEY`>`Create new key`.<br />Select ´JSON´ as `Key type` and click on `CREATE`.||
 
 ### Step 2b - Setting up a Harbor Repository
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
@@ -47,10 +47,10 @@ Before installing TAP on GKE make sure that you have the following:
 ### Step 3 - Creating and connect to a GKE cluster for the TAP image
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| Create cluster || Go to the upper left menu in your Google Console and click on `Kubernetes` >> `Clusters`. <br />Select a name for the cluster (*I use `tap-cluster`).<br />Choose `Location type` >> `Regional` and select your region (*I am using `europe-north1 (Finland)`.Check the `Specify default node locations` and check mark all node zones.<br />Allow GKE to automatically manage the cluster's `control plane version` by checking the `Release channel`.<br />Click on `CREATE`.| *If it says that you are about to create a `Autopilot cluster` make sure to switch to a `Standard cluster`* |
-|||||
-|||||
-|||||
+| Create cluster - **Set name and zones** || Go to the upper left menu in your Google Console and click on `Kubernetes` >> `Clusters`. <br />Select a name for the cluster (I use *tap-cluster*).<br />Choose `Location type` >> `Regional` and select your region (*I am using `europe-north1 (Finland)`.Check the `Specify default node locations` and check mark all node zones.<br />Allow GKE to automatically manage the cluster's `control plane version` by checking the `Release channel`. | *If it says that you are about to create a `Autopilot cluster` make sure to switch to a `Standard cluster`.* |
+| Create cluster - **Configure node settings** ||||
+| Create cluster - **Add Service Account to Node Pool** ||||
+| Create cluster - **Finalise cluster** ||||
 
 ### Step 4 - Connecting to the GKE cluster
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
