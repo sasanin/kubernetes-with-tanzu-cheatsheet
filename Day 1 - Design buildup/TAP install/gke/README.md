@@ -44,7 +44,7 @@ Before installing TAP on GKE make sure that you have the following:
 | xx | `yy` |  | Pay attention to.. |
 | xx | `yy` | | bla bla|
 
-### Step 3 - Creating and connect to a GKE cluster for the TAP image
+### Step 3 - Creating and connecting to a GKE cluster for the TAP image
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
 | Create cluster - **Set name and zones** || Go to the upper left menu in your Google Console and click on `Kubernetes` >> `Clusters`. <br />Select a name for the cluster (I use *tap-cluster*).<br />Choose `Location type` >> `Regional` and select your region (*I am using `europe-north1 (Finland)`.Check the `Specify default node locations` and check mark all node zones.<br />Allow GKE to automatically manage the cluster's `control plane version` by checking the `Release channel`. | *If it says that you are about to create a `Autopilot cluster` make sure to switch to a `Standard cluster`.* |
@@ -52,10 +52,15 @@ Before installing TAP on GKE make sure that you have the following:
 | Create cluster - **Add Service Account to Node Pool** ||||
 | Create cluster - **Create and connect to cluster** | **(2)** Paste the command in your terminal window and run it.<br />The result will be `kubeconfig entry generated for <YOUR CLUSTER>`. | **(1)** Click on `CREATE` and wait a while till the cluster is up and running.<br />Cross check the details by clicking on the cluster.<br />Open the cluster you just created and click on `CONNECT` and copy the command to access the cluster. | *Once connected to your cluster make sure you locally are in the right context by this command: `kubectl config get-contexts`.* |
 
-### Step 4 - Connecting to the GKE cluster
+### Step 4 - Installing Tanzu Cluster Essentials
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| ||||
-|||||
+| Cluster Essentials - **Download file** | Go to the [Tanzu Network](https://network.tanzu.vmware.com/products/tanzu-cluster-essentials/) and if needed accept any EULA (End User License Agreement).<br />Select latest version (here I will be using the v1.5.1 release) and download the .tgz file.<br />Create a folder on your local Mac similar to where you before have created the `tanzu` folder. Name the folder `tanzu-cluster-essentials` and unpack the .tgz file here. |||
+| Cluster Essentials - **Install** | `cd` in to the `tanzu-cluster-essentials` folder and run the following to validate the bundle:<br />`
+export INSTALL_BUNDLE=registry.tanzu.vmware.com/tanzu-cluster-essentials/cluster-essentials-bundle@sha256:5fd527dda8af0e4c25c427e5659559a2ff9b283f6655a335ae08357ff63b8e7f
+export INSTALL_REGISTRY_HOSTNAME=registry.tanzu.vmware.com
+export INSTALL_REGISTRY_USERNAME=TANZU_HARBOR_USERNAME
+export INSTALL_REGISTRY_PASSWORD=TANZU_HARBOR_PASSWORD
+./install.sh --yes` |||
 |||||
 |||||
