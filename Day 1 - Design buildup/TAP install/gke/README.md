@@ -48,7 +48,7 @@ Before installing TAP on GKE make sure that you have the following:
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
 | Create cluster - **Set name and zones** || Go to the upper left menu in your Google Console and click on `Kubernetes` >> `Clusters`. <br />Select a name for the cluster (I use *tap-cluster*).<br />Choose `Location type` >> `Regional` and select your region (*I am using `europe-north1 (Finland)`.Check the `Specify default node locations` and check mark all node zones.<br />Allow GKE to automatically manage the cluster's `control plane version` by checking the `Release channel`. | *If it says that you are about to create a `Autopilot cluster` make sure to switch to a `Standard cluster`.* |
-| Create cluster - **Configure node settings** ||||
+| Create cluster - **Configure node settings** || In the left hand menu click on `default-pool` >> `Nodes`<br />Adjust the Machine configuration by the following:<br />`Series` "E2"<br />`Machine type` "e2-standard-4" (needed TAP resources)<br />Go back to `default-pool` and change the `Number of zones (per node)` under `Size` to "1". ||
 | Create cluster - **Add Service Account to Node Pool** ||||
 | Create cluster - **Create and connect to cluster** ||||
 
