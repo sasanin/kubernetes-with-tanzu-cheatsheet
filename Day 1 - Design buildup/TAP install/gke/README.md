@@ -27,7 +27,7 @@ Before installing TAP on GKE make sure that you have the following:
 | Update Tanzu CLI - **Plugins**| `tanzu plugin list` will show you the current installed plugins but also upgradeable ones.<br />If you would like to install any then run script: `tanzu plugin install <PLUGIN NAME>` or if you want to upgrade any then: `tanzu plugin upgrade <PLUGIN NAME>`.| | |
 | Kubectl CLI - **Health check and upgrade** | Use `kubectl version --output=yaml` to see your client and server versions in yaml format.<br />Make sure the CLI client can run on the latest supported Kubernetes version - check [here](https://kubernetes.io/releases/).<br />If you need to upgrade your Kubectl CLI then the simple thing is to use Homebrew: `brew upgrade kubectl`. || *You will also be able to see the output in json format if changing to `--output=json`.* |
   
-### Step 2a - How to use a GKE Artifact Repository
+### Step 2a - Setting up a GKE Artifact Repository with Keys for Service Accounts
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
 | Go to Artifact Registry in Google Cloud | | Go to your [Google Cloud Console](https://console.cloud.google.com/) and search for "Artifact Registry". This reqistry will hold all your repositories. | *Before you start make sure you are in the right project. Check this by the project drop down list in upper left corner.* |
@@ -39,14 +39,24 @@ Before installing TAP on GKE make sure that you have the following:
 | Create private key | **(2)** The json file containing your private key will be downloaded to your Mac. Make sure to save it where you can easily find as you will need the content for the next steps. | **(1)** Open the `tap-service-account` that you just created and go to the `KEYS` column and click on `ADD KEY`>`Create new key`.<br />Select ´JSON´ as `Key type` and click on `CREATE`.||
 |||||
 
-### Step 2b - How to use a Harbor Repository
+### Step 2b - Setting up a Harbor Repository
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
 | xx | `yy` |  | Pay attention to.. |
 | xx | `yy` | | bla bla|
 
-### Step 3 - 
-| What you are trying to achieve | Kubernetes (+other tools) | Tanzu Kubernetes Grid | Notes |
+### Step 3 - Creating a GKE cluster for the TAP image
+| What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| Install Docker | `kubectl get pods` | `tanzu list..`| Kind requires that you have Docker installed and configured |
-| Install Kind | `kubectl apply -f xyz.yaml`. | Show file differences that **haven't been** staged |
+| ||||
+|||||
+|||||
+|||||
+
+### Step 4 - Connecting to the GKE cluster
+| What you are trying to achieve | On local Mac | In Google Cloud | Notes |
+| --- | --- | --- | --- |
+| ||||
+|||||
+|||||
+|||||
