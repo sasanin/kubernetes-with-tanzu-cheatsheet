@@ -37,7 +37,6 @@ Before installing TAP on GKE make sure that you have the following:
 | Create Service Account || In gcloud console click on the left hand menu and select `IAM & Admin` >> `Service Accounts`.<br />Click on `CREATE SERVICE ACCOUNT`.<br />Give the `Service account name` *tap-service-account* and click on `CREATE AND CONTINUE`.<br /> ||
 | Grant IAM roles on the Google Cloud project || Grant the following service accounts access so that it has permission to complete specific actions on the resources in your project:<br />-*Artifact Registry Administrator*<br />-*Storage Admin*<br />Click on `CONTINUE` and then on `DONE`. ||
 | Create private key | **(2)** The json file containing your private key will be downloaded to your Mac. Make sure to save it where you can easily find as you will need the content for the next steps. | **(1)** Open the `tap-service-account` that you just created and go to the `KEYS` column and click on `ADD KEY`>`Create new key`.<br />Select ´JSON´ as `Key type` and click on `CREATE`.||
-|||||
 
 ### Step 2b - Setting up a Harbor Repository
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
@@ -45,10 +44,10 @@ Before installing TAP on GKE make sure that you have the following:
 | xx | `yy` |  | Pay attention to.. |
 | xx | `yy` | | bla bla|
 
-### Step 3 - Creating a GKE cluster for the TAP image
+### Step 3 - Creating and connect to a GKE cluster for the TAP image
 | What you are trying to achieve | On local Mac | In Google Cloud | Notes |
 | --- | --- | --- | --- |
-| ||||
+| Create cluster || Go to the upper left menu in your Google Console and click on `Kubernetes` >> `Clusters`. <br />Select a name for the cluster (*I use `tap-cluster`).<br />Choose `Location type` >> `Regional` and select your region (*I am using `europe-north1 (Finland)`.Check the `Specify default node locations` and check mark all node zones.<br />Allow GKE to automatically manage the cluster's `control plane version` by checking the `Release channel`.<br />Click on `CREATE`.| *If it says that you are about to create a `Autopilot cluster` make sure to switch to a `Standard cluster`* |
 |||||
 |||||
 |||||
