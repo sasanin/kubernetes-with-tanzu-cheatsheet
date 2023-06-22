@@ -10,6 +10,7 @@ Before installing TAP on GKE make sure that you have the following:
 * A Tanzu Network account with noted username and password.
   - If not, please go to https://network.tanzu.vmware.com and create one. Save the username and password as we will **XX**
 * Access to https://registry.tanzu.vmware.com using the same credentials as above.
+  > Save these login credentials as`TANZU_HARBOR_USERNAME` and `TANZU_HARBOR_PASSWORD`.
 * A Google Cloud Account that gives you access to the GKE console https://console.cloud.google.com/.
 
 ### Step 1 - Obtaining and refreshing CLIs
